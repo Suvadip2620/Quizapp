@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fash_screen"
+    tools:context=".start">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Welcome To"
+          android:gravity="center"
+          android:textColor="@color/white"
+          android:textSize="38dp"
+          android:textStyle="bold"
+          android:layout_marginTop="284dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Online"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's play the awesome quiz app to enhance Your Knowledge"
+
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonst"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:text="Start"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
